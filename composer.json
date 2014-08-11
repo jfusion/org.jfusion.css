@@ -1,0 +1,16 @@
+{
+    "name": "jfusion/css",
+    "type": "jfusion-css",
+    "description": "JFusion Css parser",
+    "keywords": ["jfusion", "css", "parser"],
+    "homepage": "https://github.com/jfusion/org.jfusion.css",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "JFusion\\Css\\": "."
+        }
+    }
+}
