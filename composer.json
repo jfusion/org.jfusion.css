@@ -1,16 +1,24 @@
 {
     "name": "jfusion/css",
-    "type": "jfusion-css",
+    "type": "library",
     "description": "JFusion Css parser",
     "keywords": ["jfusion", "css", "parser"],
-    "homepage": "https://github.com/jfusion/org.jfusion.css",
+    "homepage": "http://jfusion.org",
     "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Morten Hundevad",
+            "email": "fannoj@gmail.com",
+            "homepage": "http://fanno.dk",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.3.10"
     },
     "autoload": {
         "psr-4": {
-            "JFusion\\Css\\": "."
+            "JFusion\\Css\\": "src/"
         }
     }
 }
